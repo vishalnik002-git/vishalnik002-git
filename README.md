@@ -81,17 +81,17 @@
 
 | Repository | Focus Area | Concepts & Implementation |
 | :--- | :--- | :--- |
-| [**Terraform Remote State Backend**](https://github.com/vishalnik002-git/terraform-remote-state-backend) | `Azure Blob` `Remote State` `State Locking` | • Production state management configuring Azure Blob Storage as a remote backend.<br/>• Implemented native Azure Blob lease locking to prevent state corruption during concurrent team runs. |
-| [**Terraform Azure RG & Storage Automation**](https://github.com/vishalnik002-git/terraform-azure-rg-storage-automation) | `Nested Maps` `for_each` `Multi-Region` | • Automated provisioning of Resource Groups and Storage Accounts across multiple regions.<br/>• Implemented nested maps and `for_each` loops to automate repetitive infrastructure cleanly. |
-| [**Terraform Loops & Collections**](https://github.com/vishalnik002-git/terraform-loops-collections) | `Lists` `Sets` `Maps` `for_each` | • Implemented Terraform collection data types (`list`, `set`, `map`).<br/>• Applied type conversion (`toset`) and dynamic attribute mapping across resources. |
-| [**Terraform Variables & Modular Design**](https://github.com/vishalnik002-git/terraform-variables-storage-account) | `variable.tf` `terraform.tfvars` `DRY` | • Parameterized infrastructure separating variable definitions, environment values, and resource blocks.<br/>• Enforced strict type constraints and clean code architecture. |
-| [**Terraform Foundational Azure Labs**](https://github.com/vishalnik002-git/terraform-hardcoded-rg) | `AzureRM Provider` `Resource Lifecycle` | • Hands-on labs provisioning Azure Resource Groups and Storage Accounts.<br/>• Learned resource arguments, implicit dependencies, state files, and resource destruction. |
+| [**Terraform Remote State Backend**](https://github.com/vishalnik002-git/terraform-remote-state-backend) | `Azure Blob` `Remote State` `State Locking` | • Configures Azure Blob Storage as a remote backend to store Terraform state files.<br/>• Enables state locking so multiple team members cannot overwrite infrastructure at the same time. |
+| [**Terraform Azure RG & Storage Automation**](https://github.com/vishalnik002-git/terraform-azure-rg-storage-automation) | `Nested Maps` `for_each` `Multi-Region` | • Automates provisioning of Resource Groups and Storage Accounts across East US and West US.<br/>• Uses nested maps and `for_each` loops to avoid duplicate code and deploy resources dynamically. |
+| [**Terraform Loops & Collections**](https://github.com/vishalnik002-git/terraform-loops-collections) | `Lists` `Sets` `Maps` `for_each` | • Demonstrates Terraform collection data types: `list`, `set`, and `map` for Azure resources.<br/>• Uses `toset` conversion and dynamic attribute mapping to provision resources with loops. |
+| [**Terraform Variables & Modular Design**](https://github.com/vishalnik002-git/terraform-variables-storage-account) | `variable.tf` `terraform.tfvars` `DRY` | • Separates configuration into `variable.tf` (inputs), `terraform.tfvars` (values), and `main.tf`.<br/>• Follows DRY principles to make infrastructure code reusable and easy to maintain. |
+| [**Terraform Foundational Azure Labs**](https://github.com/vishalnik002-git/terraform-hardcoded-rg) | `AzureRM Provider` `Resource Lifecycle` | • Foundational labs creating Azure Resource Groups and Storage Accounts with Terraform.<br/>• Covers resource arguments, implicit dependencies, and state lifecycle (`plan`, `apply`, `destroy`). |
 
 #### 🌐 3. Web Portfolio
 
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| [**DevOps Portfolio Website**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive personal portfolio website showcasing DevOps projects, technical skills, and resume. |
+| [**DevOps Portfolio Website**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive developer portfolio website showcasing DevOps projects, technical skills, and resume. |
 
 ---
 
