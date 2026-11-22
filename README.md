@@ -33,75 +33,30 @@
 - 🎓 **Education:**
   - **Master of Computer Applications (MCA)** — Galgotias University (2025 – 2027)
   - **Bachelor of Computer Applications (BCA)** — Mahatma Gandhi Kashi Vidyapith (MGKVP) (2022 – 2025)
-- 💼 **Industry Training & Experience:** DevOps & Cloud Intern at **DevOps Insiders** — practical hands-on training provisioning cloud infrastructure and configuring automated deployment pipelines.
-- 🎯 **Core Focus:**
-  - **Infrastructure as Code (IaC):** Terraform & AzureRM Provider
-  - **Cloud Platform:** Microsoft Azure
-  - **CI/CD Automation:** Azure DevOps Pipelines & GitHub Actions
-  - **Version Control:** Git & GitHub (Branching workflows, PR reviews)
-- 💡 **Engineering Approach:** Writing clean, reusable Terraform code (DRY principle), automating cloud resources to eliminate manual errors, and maintaining resource discipline to prevent unnecessary cloud costs.
+- 💼 **Industry Experience:** DevOps & Cloud Intern at **DevOps Insiders** — hands-on experience provisioning cloud infrastructure on Microsoft Azure and automating delivery pipelines.
+- 🎯 **Primary Focus:** Infrastructure as Code (Terraform), Microsoft Azure Cloud, CI/CD Automation (GitHub Actions & Azure DevOps), and Git version control.
+- 💡 **Engineering Approach:** Writing clean, reusable Terraform code (DRY principle), automating cloud provisioning to eliminate manual errors, and maintaining resource hygiene to prevent unexpected cloud billing.
 
 ---
 
-### 🛠️ Technical Competencies
+### 🛠️ Technical Stack & Skills
 
-<!-- Animated Glow Tech Stack Strip -->
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions,git,github,linux,bash,powershell,docker,kubernetes,py&theme=dark" alt="DevOps Tech Stack" />
 </p>
 
-#### ☁️ 1. Cloud Platform
-<p align="left">
-  <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Microsoft Azure" />
-</p>
-
-* **Core Services & Keywords:** `Virtual Networks (VNets)`, `Subnets`, `Network Security Groups (NSGs)`, `Azure Storage Accounts (Blob)`, `Azure App Service`, `Azure Container Registry (ACR)`, `Resource Groups`.
-
-#### 🏗️ 2. Infrastructure as Code (IaC)
-<p align="left">
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/HCL-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="HCL" />
-</p>
-
-* **Core Concepts & Keywords:** `Terraform Modules`, `Remote State Backend`, `State Lease Locking`, `for_each Loops`, `Nested Maps`, `Dynamic Blocks`, `variable.tf & terraform.tfvars`, `Output Values`, `Dependencies (depends_on)`.
-
-#### 🚀 3. CI/CD & Delivery Automation
-<p align="left">
-  <img src="https://img.shields.io/badge/Azure_DevOps_Pipelines-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Azure DevOps Pipelines" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-</p>
-
-* **Core Pipeline Practices:** `Automated CI/CD Workflows`, `Syntax Validation (fmt & validate)`, `Terraform Plan Generation`, `Pull Request Gates`, `Docker Build & Push to ACR`.
-
-#### 🌿 4. Version Control & Collaboration
-<p align="left">
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-</p>
-
-* **Core Git Workflows:** `Feature Branching (feature/*)`, `Pull Request Reviews`, `Branch Protection`, `Merge Strategies`, `Commit Hygiene`.
-
-#### 💻 5. Operating Systems & Scripting
-<p align="left">
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Python_(Basics)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Basics" />
-</p>
-
-* **Core Scripting Practices:** `Linux CLI`, `Shell Scripting (Bash)`, `PowerShell Automation`, `Basic Python for Scripts & Web Backends`.
-
-#### 📦 6. Containers & Systems (Foundations)
-<p align="left">
-  <img src="https://img.shields.io/badge/Docker_(Basics)-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Basics" />
-  <img src="https://img.shields.io/badge/Kubernetes_(Basics)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes Basics" />
-</p>
-
-* **Core Container Concepts:** `Dockerfile Writing`, `Image Packaging`, `Container Registry Management`, `Kubernetes Architecture Basics`.
+| Domain | Core Tools & Practical Scope |
+| :--- | :--- |
+| ☁️ **Cloud Platform** | **Microsoft Azure** (Resource Groups, VNets, Subnets, NSGs, Blob Storage, App Service, ACR, Linux VMs) |
+| 🏗️ **Infrastructure as Code** | **Terraform**, **HCL** (Modular Architecture, AzureRM Provider, Remote State Locking, `for_each`, Nested Maps, Dynamic Blocks, `variable.tf` & `terraform.tfvars`) |
+| 🚀 **CI/CD Automation** | **Azure DevOps Pipelines**, **GitHub Actions** (Automated Linting, `terraform plan` Validation, PR Quality Gates, Docker Build & ACR Push) |
+| 🌿 **Version Control** | **Git**, **GitHub** (Feature Branching Workflow, Pull Request Reviews, Branch Protection Policies, Commit Hygiene) |
+| 💻 **Operating Systems & Shell** | **Linux (Ubuntu)**, **PowerShell**, **Bash**, **Python** (Basics for automation & web backends) |
+| 📦 **Containers & Systems** | **Docker** (Dockerfile, Multi-stage builds, Container packaging), **Kubernetes** (Architecture basics) |
 
 ---
 
-### 🔄 CI/CD & Infrastructure Delivery Pipeline
+### 🔄 CI/CD & Delivery Pipeline Flow
 
 <div align="center">
 
@@ -112,34 +67,22 @@
 
 </div>
 
-```text
-┌───────────────────────┐     ┌───────────────────────┐     ┌───────────────────────┐
-│  01. Git Feature      │ ──► │  02. Validate & Test  │ ──► │  03. CI Pipeline Plan │
-│  Branch & PR Review   │     │  terraform fmt/validate│     │  terraform plan check │
-└───────────────────────┘     └───────────────────────┘     └───────────┬───────────┘
-                                                                        │
-┌───────────────────────┐     ┌───────────────────────┐                 ▼
-│  05. Remote State     │ ◄── │  04. CD Cloud Apply   │ ◄───────────────┘
-│  Azure Blob Lease Lock│     │  Provision to Azure   │
-└───────────────────────┘     └───────────────────────┘
-```
-
 ---
 
-### 📂 Hands-On Projects & Practical Repositories
+### 📂 Hands-On Projects & Repositories
 
 #### 🌟 1. Major Academic Project (MCA 3rd Semester)
 
-| Repository | Tech Stack | Project Summary & Architecture |
+| Repository | Tech Stack | Architecture & Deliverables |
 | :--- | :--- | :--- |
-| [**DevOps Pipeline Optimization System**](https://github.com/vishalnik002-git/mca-sem3-devops-pipeline) | `Python (Flask)` `Docker` `GitHub Actions` `Terraform` `Azure App Service` `ACR` | • **MCA 3rd Semester Major Academic Project** at Galgotias University.<br/>• Automated software delivery pipeline triggered on Git push.<br/>• Builds and packages Flask web application into Docker container images.<br/>• Automatically pushes images to **Azure Container Registry (ACR)**.<br/>• Provisions cloud resources (App Service Plan, Linux Web App, ACR) via **Terraform**.<br/>• Deploys container to live **Azure Linux Web App**. |
+| [**DevOps Pipeline Optimization System**](https://github.com/vishalnik002-git/mca-sem3-devops-pipeline) | `Python (Flask)` `Docker` `GitHub Actions` `Terraform` `Azure App Service` `ACR` | • **MCA 3rd Semester Major Academic Project** at Galgotias University.<br/>• Automated software delivery pipeline triggered on Git push to `main`.<br/>• Packages Flask web app into a container image and pushes to **Azure Container Registry (ACR)**.<br/>• Provisions cloud infrastructure (App Service Plan, Linux Web App, ACR) via **Terraform**.<br/>• Deploys container to live **Azure Linux Web App**. |
 
 #### ☁️ 2. Infrastructure as Code (Terraform & Microsoft Azure)
 
 | Repository | Focus Area | Concepts & Implementation |
 | :--- | :--- | :--- |
-| [**Terraform Remote State Backend**](https://github.com/vishalnik002-git/terraform-remote-state-backend) | `Azure Blob` `Remote State` `State Locking` | • Configured remote state storage using Azure Blob Storage.<br/>• Implemented native Azure Blob lease locking to prevent state corruption during concurrent runs. |
-| [**Terraform Azure RG & Storage Automation**](https://github.com/vishalnik002-git/terraform-azure-rg-storage-automation) | `Nested Maps` `for_each` `Multi-Region` | • Automated provisioning of Resource Groups and Storage Accounts across multiple regions.<br/>• Used nested maps and `for_each` loops to eliminate redundant code blocks. |
+| [**Terraform Remote State Backend**](https://github.com/vishalnik002-git/terraform-remote-state-backend) | `Azure Blob` `Remote State` `State Locking` | • Production state management configuring Azure Blob Storage as a remote backend.<br/>• Implemented native Azure Blob lease locking to prevent state corruption during concurrent team runs. |
+| [**Terraform Azure RG & Storage Automation**](https://github.com/vishalnik002-git/terraform-azure-rg-storage-automation) | `Nested Maps` `for_each` `Multi-Region` | • Automated provisioning of Resource Groups and Storage Accounts across multiple regions.<br/>• Implemented nested maps and `for_each` loops to automate repetitive infrastructure cleanly. |
 | [**Terraform Loops & Collections**](https://github.com/vishalnik002-git/terraform-loops-collections) | `Lists` `Sets` `Maps` `for_each` | • Implemented Terraform collection data types (`list`, `set`, `map`).<br/>• Applied type conversion (`toset`) and dynamic attribute mapping across resources. |
 | [**Terraform Variables & Modular Design**](https://github.com/vishalnik002-git/terraform-variables-storage-account) | `variable.tf` `terraform.tfvars` `DRY` | • Parameterized infrastructure separating variable definitions, environment values, and resource blocks.<br/>• Enforced strict type constraints and clean code architecture. |
 | [**Terraform Foundational Azure Labs**](https://github.com/vishalnik002-git/terraform-hardcoded-rg) | `AzureRM Provider` `Resource Lifecycle` | • Hands-on labs provisioning Azure Resource Groups and Storage Accounts.<br/>• Learned resource arguments, implicit dependencies, state files, and resource destruction. |
@@ -148,7 +91,7 @@
 
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| [**DevOps Portfolio Website**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive personal portfolio website showcasing DevOps projects, technical skills, and background. |
+| [**DevOps Portfolio Website**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive personal portfolio website showcasing DevOps projects, technical skills, and resume. |
 
 ---
 
