@@ -35,7 +35,7 @@
   - **Bachelor of Computer Applications (BCA)** — Mahatma Gandhi Kashi Vidyapith (MGKVP) (2022 – 2025)
 - 💼 **Industry Training & Experience:** DevOps & Cloud Intern at **DevOps Insiders** — practical hands-on training provisioning cloud infrastructure and configuring automated deployment pipelines.
 - 🎯 **Core Focus:**
-  - **Infrastructure as Code (IaC):** Terraform & AzureRM
+  - **Infrastructure as Code (IaC):** Terraform & AzureRM Provider
   - **Cloud Platform:** Microsoft Azure
   - **CI/CD Automation:** Azure DevOps Pipelines & GitHub Actions
   - **Version Control:** Git & GitHub (Branching workflows, PR reviews)
@@ -50,30 +50,38 @@
   <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions,git,github,linux,bash,powershell,docker,kubernetes,py&theme=dark" alt="DevOps Tech Stack" />
 </p>
 
-#### ☁️ Cloud Platform
+#### ☁️ 1. Cloud Platform
 <p align="left">
   <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Microsoft Azure" />
 </p>
 
-#### 🏗️ Infrastructure as Code (IaC)
+* **Core Services & Keywords:** `Virtual Networks (VNets)`, `Subnets`, `Network Security Groups (NSGs)`, `Azure Storage Accounts (Blob)`, `Azure App Service`, `Azure Container Registry (ACR)`, `Resource Groups`.
+
+#### 🏗️ 2. Infrastructure as Code (IaC)
 <p align="left">
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
   <img src="https://img.shields.io/badge/HCL-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="HCL" />
 </p>
 
-#### 🚀 CI/CD & Delivery Automation
+* **Core Concepts & Keywords:** `Terraform Modules`, `Remote State Backend`, `State Lease Locking`, `for_each Loops`, `Nested Maps`, `Dynamic Blocks`, `variable.tf & terraform.tfvars`, `Output Values`, `Dependencies (depends_on)`.
+
+#### 🚀 3. CI/CD & Delivery Automation
 <p align="left">
   <img src="https://img.shields.io/badge/Azure_DevOps_Pipelines-0078D7?style=for-the-badge&logo=azure-devops&logoColor=white" alt="Azure DevOps Pipelines" />
   <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
 </p>
 
-#### 🌿 Version Control & Collaboration
+* **Core Pipeline Practices:** `Automated CI/CD Workflows`, `Syntax Validation (fmt & validate)`, `Terraform Plan Generation`, `Pull Request Gates`, `Docker Build & Push to ACR`.
+
+#### 🌿 4. Version Control & Collaboration
 <p align="left">
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
-#### 💻 Operating Systems & Scripting
+* **Core Git Workflows:** `Feature Branching (feature/*)`, `Pull Request Reviews`, `Branch Protection`, `Merge Strategies`, `Commit Hygiene`.
+
+#### 💻 5. Operating Systems & Scripting
 <p align="left">
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
@@ -81,27 +89,40 @@
   <img src="https://img.shields.io/badge/Python_(Basics)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Basics" />
 </p>
 
-#### 📦 Containers & Systems (Foundations)
+* **Core Scripting Practices:** `Linux CLI`, `Shell Scripting (Bash)`, `PowerShell Automation`, `Basic Python for Scripts & Web Backends`.
+
+#### 📦 6. Containers & Systems (Foundations)
 <p align="left">
   <img src="https://img.shields.io/badge/Docker_(Basics)-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker Basics" />
   <img src="https://img.shields.io/badge/Kubernetes_(Basics)-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes Basics" />
 </p>
 
+* **Core Container Concepts:** `Dockerfile Writing`, `Image Packaging`, `Container Registry Management`, `Kubernetes Architecture Basics`.
+
 ---
 
 ### 🔄 CI/CD & Infrastructure Delivery Pipeline
 
-<p align="center">
-  <img src="https://img.shields.io/badge/01_Branch-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Branch" />
-  ➔
-  <img src="https://img.shields.io/badge/02_Validate-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Validate" />
-  ➔
-  <img src="https://img.shields.io/badge/03_CI_Plan-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI Plan" />
-  ➔
-  <img src="https://img.shields.io/badge/04_CD_Apply-Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="CD Apply" />
-  ➔
-  <img src="https://img.shields.io/badge/05_State_Lock-Azure_Blob-0078D4?style=for-the-badge&logo=azure-artifacts&logoColor=white" alt="State Lock" />
-</p>
+<div align="center">
+
+  <!-- Live Infinite Animated Console Output -->
+  <a href="https://github.com/vishalnik002-git">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&pause=900&color=00D2FF&background=0D1117&center=true&vCenter=true&width=700&height=85&lines=%E2%9E%9C+Step+1%3A+Git+feature+branch+created+%26+committed+%F0%9F%8C%BF;%E2%9E%9C+Step+2%3A+Automated+terraform+fmt+%26+validate+passed+%E2%9C%85;%E2%9E%9C+Step+3%3A+CI+Pipeline+triggered+%7C+terraform+plan+generated+%F0%9F%93%8B;%E2%9E%9C+Step+4%3A+CD+Pipeline+applied+%7C+Azure+Infra+provisioned+%F0%9F%9A%80;%E2%9E%9C+Step+5%3A+Remote+state+locked+in+Azure+Blob+Storage+%F0%9F%94%92" alt="Live Pipeline Animation" />
+  </a>
+
+</div>
+
+```text
+┌───────────────────────┐     ┌───────────────────────┐     ┌───────────────────────┐
+│  01. Git Feature      │ ──► │  02. Validate & Test  │ ──► │  03. CI Pipeline Plan │
+│  Branch & PR Review   │     │  terraform fmt/validate│     │  terraform plan check │
+└───────────────────────┘     └───────────────────────┘     └───────────┬───────────┘
+                                                                        │
+┌───────────────────────┐     ┌───────────────────────┐                 ▼
+│  05. Remote State     │ ◄── │  04. CD Cloud Apply   │ ◄───────────────┘
+│  Azure Blob Lease Lock│     │  Provision to Azure   │
+└───────────────────────┘     └───────────────────────┘
+```
 
 ---
 
@@ -159,5 +180,5 @@
 ---
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:161B22,100:0078D4&height=100&section=footer" width="100%" alt="Footer Wave" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:161B22,100:0078D4&height=120&section=footer&animation=twinkling" width="100%" alt="Footer Wave" />
 </div>
