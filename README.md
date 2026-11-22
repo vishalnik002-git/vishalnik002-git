@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/vishalnik002-git">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0078D4&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Vishal+Yadav+%F0%9F%91%8B;Junior+DevOps+Engineer;DevOps+Trainee+%40+DevOps+Insiders;Hands-On+with+Terraform+%26+Microsoft+Azure;Automating+Cloud+Infrastructure+with+CI%2FCD" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0078D4&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Vishal+Yadav+%F0%9F%91%8B;Junior+DevOps+Engineer;DevOps+Intern+%40+DevOps+Insiders;Hands-On+with+Terraform+%26+Microsoft+Azure;Automating+Cloud+Infrastructure+with+CI%2FCD" alt="Typing SVG" />
   </a>
 
   <!-- Social & Contact Badges -->
@@ -79,7 +79,6 @@
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" alt="PowerShell" />
   <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-  <img src="https://img.shields.io/badge/Python_(Basics)-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python Basics" />
 </p>
 
 #### 📦 6. Containers & Systems (Foundations)
