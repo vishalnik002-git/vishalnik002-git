@@ -7,7 +7,7 @@
 
   <!-- Animated Typing Subtitle -->
   <a href="https://github.com/vishalnik002-git">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=0078D4&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Vishal+Yadav+%F0%9F%91%8B;Junior+DevOps+Engineer;DevOps+Intern+%40+DevOps+Insiders;Hands-On%3A+Terraform+%E2%80%A2+Microsoft+Azure;Automating+Cloud+Infra+with+CI%2FCD+Pipelines" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&pause=1000&color=00D2FF&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Vishal+Yadav+%F0%9F%91%8B;Junior+DevOps+Engineer;DevOps+Intern+%40+DevOps+Insiders;Hands-On%3A+Terraform+%E2%80%A2+Microsoft+Azure;Automating+Cloud+Infra+with+CI%2FCD+Pipelines" alt="Typing SVG" />
   </a>
 
   <!-- Social & Contact Badges -->
@@ -32,7 +32,7 @@
 
 - 🎓 **Education:**
   - **Master of Computer Applications (MCA)** — Galgotias University (2025 – 2027)
-  - **Bachelor of Computer Applications (BCA)** — Computer Science Foundation
+  - **Bachelor of Computer Applications (BCA)** — Mahatma Gandhi Kashi Vidyapith (MGKVP)
 - 💼 **Industry Training & Experience:** DevOps & Cloud Intern at **DevOps Insiders** — practical hands-on training provisioning cloud infrastructure and configuring automated deployment pipelines.
 - 🎯 **Core Focus:**
   - **Infrastructure as Code (IaC):** Terraform (AzureRM, Modules, Remote State Locking)
@@ -44,6 +44,10 @@
 ---
 
 ### 🛠️ Technical Competencies
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions,git,github,linux,bash,powershell,docker,kubernetes,py&theme=dark" alt="DevOps Tech Stack" />
+</p>
 
 #### ☁️ Cloud Platform
 <p align="left">
