@@ -1,7 +1,9 @@
 <div align="center">
 
   <!-- Top Animated Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0:0D1117,50:161B22,100:0078D4&height=210&section=header&text=Vishal%20Yadav&fontSize=48&fontAlignY=38&animation=twinkling&desc=DevOps%20%26%20Cloud%20Engineer%20%7C%20Terraform%20%E2%80%A2%20Microsoft%20Azure%20%E2%80%A2%20CI%2FCD%20%E2%80%A2%20Git&descFontSize=17&descAlignY=62" width="100%" alt="Vishal Yadav Banner" />
+<p align="center">
+  <img src="./Banner.png" alt="Vishal Yadav - Junior DevOps Engineer" width="100%" />
+</p>
 
   <!-- Animated Typing Effect -->
   <a href="https://github.com/vishalnik002-git">
