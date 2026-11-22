@@ -32,11 +32,11 @@
 
 - 🎓 **Education:**
   - **Master of Computer Applications (MCA)** — Galgotias University (2025 – 2027)
-  - **Bachelor of Computer Applications (BCA)** — Mahatma Gandhi Kashi Vidyapith (MGKVP)
+  - **Bachelor of Computer Applications (BCA)** — Mahatma Gandhi Kashi Vidyapith (MGKVP) (2022 – 2025)
 - 💼 **Industry Training & Experience:** DevOps & Cloud Intern at **DevOps Insiders** — practical hands-on training provisioning cloud infrastructure and configuring automated deployment pipelines.
 - 🎯 **Core Focus:**
-  - **Infrastructure as Code (IaC):** Terraform (AzureRM, Modules, Remote State Locking)
-  - **Cloud Platform:** Microsoft Azure (VNets, Subnets, NSG, Storage, App Service, ACR)
+  - **Infrastructure as Code (IaC):** Terraform & AzureRM
+  - **Cloud Platform:** Microsoft Azure
   - **CI/CD Automation:** Azure DevOps Pipelines & GitHub Actions
   - **Version Control:** Git & GitHub (Branching workflows, PR reviews)
 - 💡 **Engineering Approach:** Writing clean, reusable Terraform code (DRY principle), automating cloud resources to eliminate manual errors, and maintaining resource discipline to prevent unnecessary cloud costs.
@@ -45,6 +45,7 @@
 
 ### 🛠️ Technical Competencies
 
+<!-- Animated Glow Tech Stack Strip -->
 <p align="center">
   <img src="https://skillicons.dev/icons?i=azure,terraform,githubactions,git,github,linux,bash,powershell,docker,kubernetes,py&theme=dark" alt="DevOps Tech Stack" />
 </p>
@@ -52,18 +53,12 @@
 #### ☁️ Cloud Platform
 <p align="left">
   <img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Microsoft Azure" />
-  <img src="https://img.shields.io/badge/Virtual_Networks-0078D4?style=for-the-badge&logo=azure-pipelines&logoColor=white" alt="Virtual Networks" />
-  <img src="https://img.shields.io/badge/Storage_Accounts-0078D4?style=for-the-badge&logo=azure-artifacts&logoColor=white" alt="Storage Accounts" />
-  <img src="https://img.shields.io/badge/Azure_App_Service-0078D4?style=for-the-badge&logo=azure-functions&logoColor=white" alt="Azure App Service" />
-  <img src="https://img.shields.io/badge/Container_Registry-0078D4?style=for-the-badge&logo=docker&logoColor=white" alt="Azure Container Registry" />
 </p>
 
 #### 🏗️ Infrastructure as Code (IaC)
 <p align="left">
   <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/Terraform_Modules-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform Modules" />
-  <img src="https://img.shields.io/badge/Remote_State_Locking-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Remote State Locking" />
-  <img src="https://img.shields.io/badge/Dynamic_Blocks_%26_Loops-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Dynamic Blocks" />
+  <img src="https://img.shields.io/badge/HCL-844FBA?style=for-the-badge&logo=terraform&logoColor=white" alt="HCL" />
 </p>
 
 #### 🚀 CI/CD & Delivery Automation
@@ -94,12 +89,19 @@
 
 ---
 
-### 🔄 CI/CD & Infrastructure Delivery Workflow
+### 🔄 CI/CD & Infrastructure Delivery Pipeline
 
-```text
-🌿 Feature Branch (Git) ➔ 🔍 Syntax Validation (fmt & validate) ➔ 🤝 Pull Request (Review) 
-   ➔ 📋 CI Automation (Terraform Plan) ➔ 🚀 CD Deployment (Azure Apply) ➔ 🔒 State Locking (Azure Blob)
-```
+<p align="center">
+  <img src="https://img.shields.io/badge/01_Branch-Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Branch" />
+  ➔
+  <img src="https://img.shields.io/badge/02_Validate-Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Validate" />
+  ➔
+  <img src="https://img.shields.io/badge/03_CI_Plan-GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="CI Plan" />
+  ➔
+  <img src="https://img.shields.io/badge/04_CD_Apply-Microsoft_Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="CD Apply" />
+  ➔
+  <img src="https://img.shields.io/badge/05_State_Lock-Azure_Blob-0078D4?style=for-the-badge&logo=azure-artifacts&logoColor=white" alt="State Lock" />
+</p>
 
 ---
 
@@ -144,6 +146,11 @@
     <tr>
       <td colspan="2" align="center">
         <img src="https://streak-stats.demolab.com/?user=vishalnik002-git&theme=tokyonight&hide_border=true" alt="GitHub Streak Stats" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2" align="center">
+        <img src="https://github-readme-activity-graph.vercel.app/graph?username=vishalnik002-git&theme=tokyo-night&hide_border=true&area=true" width="100%" alt="Contribution Activity Graph" />
       </td>
     </tr>
   </table>
