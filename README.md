@@ -100,7 +100,7 @@ Based on industry-standard engineering practices taught at DevOps Insiders:
 
 ### 📂 Hierarchical Projects & Hands-On Repositories
 
-#### 🌟 1. Capstone Project (Academic & DevOps Integration)
+#### 🌟 1. Major Academic Project (MCA 3rd Semester - DevOps Integration)
 
 | Repository | Tech Stack | Highlights & Architecture |
 | :--- | :--- | :--- |
