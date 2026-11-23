@@ -75,23 +75,26 @@
 
 | Repository | Tech Stack | Architecture & Deliverables |
 | :--- | :--- | :--- |
-| [**DevOps Pipeline Optimization System**](https://github.com/vishalnik002-git/mca-sem3-devops-pipeline) | `Python (Flask)` `Docker` `GitHub Actions` `Terraform` `Azure App Service` `ACR` | • **MCA 3rd Semester Major Academic Project** at Galgotias University.<br/>• Automated software delivery pipeline triggered on Git push to `main`.<br/>• Packages Flask web app into a container image and pushes to **Azure Container Registry (ACR)**.<br/>• Provisions cloud infrastructure (App Service Plan, Linux Web App, ACR) via **Terraform**.<br/>• Deploys container to live **Azure Linux Web App**. |
+| [**mca-sem3-devops-pipeline**](https://github.com/vishalnik002-git/mca-sem3-devops-pipeline) | `Python (Flask)` `Docker` `GitHub Actions` `Terraform` `Azure ACR` `Azure App Service` | • **DevOps Pipeline Optimization System** — MCA 3rd Semester Major Academic Project at Galgotias University.<br/>• Packages the Flask web application into a Docker container.<br/>• Includes a GitHub Actions workflow for automated Python tests and Docker image build/push steps to ACR when registry secrets are configured.<br/>• Includes Terraform configuration for Azure resources such as ACR, App Service Plan and Linux Web App. |
 
 #### ☁️ 2. Infrastructure as Code (Terraform & Microsoft Azure)
 
 | Repository | Focus Area | Concepts & Implementation |
 | :--- | :--- | :--- |
-| [**Terraform Remote State Backend**](https://github.com/vishalnik002-git/terraform-remote-state-backend) | `Azure Blob` `Remote State` `State Locking` | • Configures Azure Blob Storage as a remote backend to store Terraform state files.<br/>• Enables state locking so multiple team members cannot overwrite infrastructure at the same time. |
-| [**Terraform Azure RG & Storage Automation**](https://github.com/vishalnik002-git/terraform-azure-rg-storage-automation) | `Nested Maps` `for_each` `Multi-Region` | • Automates provisioning of Resource Groups and Storage Accounts across East US and West US.<br/>• Uses nested maps and `for_each` loops to avoid duplicate code and deploy resources dynamically. |
-| [**Terraform Loops & Collections**](https://github.com/vishalnik002-git/terraform-loops-collections) | `Lists` `Sets` `Maps` `for_each` | • Demonstrates Terraform collection data types: `list`, `set`, and `map` for Azure resources.<br/>• Uses `toset` conversion and dynamic attribute mapping to provision resources with loops. |
-| [**Terraform Variables & Modular Design**](https://github.com/vishalnik002-git/terraform-variables-storage-account) | `variable.tf` `terraform.tfvars` `DRY` | • Separates configuration into `variable.tf` (inputs), `terraform.tfvars` (values), and `main.tf`.<br/>• Follows DRY principles to make infrastructure code reusable and easy to maintain. |
-| [**Terraform Foundational Azure Labs**](https://github.com/vishalnik002-git/terraform-hardcoded-rg) | `AzureRM Provider` `Resource Lifecycle` | • Foundational labs creating Azure Resource Groups and Storage Accounts with Terraform.<br/>• Covers resource arguments, implicit dependencies, and state lifecycle (`plan`, `apply`, `destroy`). |
+| [**terraform-azure-fundamentals**](https://github.com/vishalnik002-git/terraform-azure-fundamentals) | `Terraform Basics & AzureRM Provider` | • Introduces Infrastructure as Code (IaC), Terraform blocks and AzureRM provider configuration.<br/>• Covers Terraform project files and the main CLI workflow.<br/>• Includes a basic Azure Resource Group example and automated code validation. |
+| [**terraform-azure-resource-provisioning**](https://github.com/vishalnik002-git/terraform-azure-resource-provisioning) | `Azure Resource Groups & Storage Accounts` | • Demonstrates Azure Resource Group and Storage Account configuration.<br/>• Covers required resource properties and basic infrastructure provisioning.<br/>• Shows implicit dependencies through Terraform resource references. |
+| [**terraform-azure-variables-and-data-types**](https://github.com/vishalnik002-git/terraform-azure-variables-and-data-types) | `Variables & Data Types` | • Covers string, number, boolean, list, set, map, object and tuple.<br/>• Demonstrates the Declare → Assign → Use pattern.<br/>• Explains variable declarations, sample input values and dynamic resource configuration. |
+| [**terraform-azure-collections-and-loops**](https://github.com/vishalnik002-git/terraform-azure-collections-and-loops) | `Count, for_each & Collections` | • Demonstrates multiple resource configuration using count and for_each.<br/>• Covers lists, sets and maps.<br/>• Explains count.index, each.key, each.value and toset() conversion. |
+| [**terraform-azure-nested-maps-and-dependencies**](https://github.com/vishalnik002-git/terraform-azure-nested-maps-and-dependencies) | `Nested Maps & Dependency Management` | • Uses nested maps and objects to organize resource properties.<br/>• Demonstrates multiple Resource Groups and Storage Account configurations.<br/>• Covers implicit dependency, explicit dependency and depends_on. |
+| [**terraform-azure-state-management**](https://github.com/vishalnik002-git/terraform-azure-state-management) | `Terraform State & Remote Backend` | • Explains local state and remote state management.<br/>• Covers Azure Blob Storage backend and state locking.<br/>• Demonstrates state drift, state inspection and important Terraform state commands. |
+| [**terraform-azure-modules-and-reuse**](https://github.com/vishalnik002-git/terraform-azure-modules-and-reuse) | `Terraform Modules & Reusable Infrastructure` | • Demonstrates Root Module and Child Module structure.<br/>• Explains module source paths, input variables and output values.<br/>• Includes reusable Resource Group and Storage Account modules. |
+| [**terraform-azure-production-best-practices**](https://github.com/vishalnik002-git/terraform-azure-production-best-practices) | `Production Practices & Azure Governance` | • Covers Terraform best practices, naming conventions and environment separation.<br/>• Explains Dev and Production configuration structure.<br/>• Includes Azure hierarchy, HLD, LLD, migration, modernization and zero-downtime concepts. |
 
 #### 🌐 3. Web Portfolio
 
 | Repository | Tech Stack | Highlights |
 | :--- | :--- | :--- |
-| [**DevOps Portfolio Website**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive developer portfolio website showcasing DevOps projects, technical skills, and resume. |
+| [**vishal-devops-portfolio**](https://github.com/vishalnik002-git/vishal-devops-portfolio) | `HTML` `CSS` `JavaScript` | • Responsive personal portfolio website.<br/>• Showcases technical skills, selected projects and resume. |
 
 ---
 
